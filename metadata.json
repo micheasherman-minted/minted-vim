@@ -1,0 +1,27 @@
+{
+  "name": "minted-vim",
+  "version": "0.0.1",
+  "author": "Jake Champlin",
+  "summary": "Installs ViM",
+  "license": "Apache-2.0",
+  "source": "https://github.com/minted/minted-vim",
+  "project_page": "https://github.com/minted/minted-vim",
+  "issues_url": "https://tickets.puppetlabs.com/browse/MODULES",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.3.2"},
+  ]
+}
